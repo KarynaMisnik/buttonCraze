@@ -89,3 +89,127 @@ body {
 .one a:hover::after {
   transform: rotateX(-180deg);
 }
+
+.two button {
+  border: none;
+  text-decoration: none;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #db6606;
+  position: relative;
+  color: #f5f2f2;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.two button::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -5px;
+  left: -5px;
+  border-top: 2px solid #db6606;
+  border-left: 2px solid #db6606;
+  transition: all 0.25s;
+}
+
+.two button:hover::before,
+.two button:hover::after {
+  height: 100%;
+  width: 100%;
+}
+
+.two button::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -5px;
+  right: -5px;
+  border-bottom: 2px solid #db6606;
+  border-right: 2px solid #db6606;
+  transition: all 0.25s;
+}
+
+.three button {
+  padding: 20px 40px;
+  background: none;
+  border: 2px solid tomato;
+  color: tomato;
+  text-transform: uppercase;
+  font-size: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.three button:hover {
+  color: white;
+}
+
+.three button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: tomato;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+.three button:hover::before {
+  height: 190%;
+}
+
+.four a {
+  text-decoration: none;
+  width: 160px;
+  height: 60px;
+  color: black;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  position: relative;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+
+.four a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border: 2px solid black;
+  z-index: -1;
+}
+
+.four span:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transition: all 0.2s;
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+.four a:hover span:before {
+  width: 100%;
+  background-color: black;
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.four a:hover {
+  color: white;
+}
