@@ -30,7 +30,7 @@ function copyCss(className) {
 
   copyToClipboard(cssText);
   elements.forEach((element) => {
-    element.innerHTML = "Copied!";
+    element.innerHTML = "COPIED!";
   });
 
   setTimeout(() => {
@@ -38,7 +38,7 @@ function copyCss(className) {
       element.innerHTML = previousHTML;
       element.classList.remove("copied");
     });
-  }, 1000);
+  }, 500);
 }
 
 function copyToClipboard(text) {
