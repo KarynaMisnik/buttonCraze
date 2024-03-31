@@ -5,24 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ButtonCraze</title>
     <link rel = "stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./components/footer.css">
 </head>
 <body>
-    <div class="container">
+    <div class="header">Header</div>
+    <h1>Button on light background</h1>
+    <div class="container light-bg">
 <div class="grid-item one" onclick="copyCss('.one')"><a href="#">Button</a></div>
 <div class="grid-item two" onclick="copyCss('.two')"><button>Button</button></div>
 <div class="grid-item three" onclick="copyCss('.three')"><a href="#">Button</a></div>
 <div class="grid-item four" onclick="copyCss('.four')"><a href="#">Button<span></span></a></div>
 <div class="grid-item five" onclick="copyCss('.five')"><button>Button</button></div>
 <div class="grid-item six" onclick="copyCss('.six')"><button>Button</button></div>
-<div class="grid-item seven" onclick="copyCss('.seven')"><a href="#"><span></span>Button</a></div>
-<div class="grid-item eight" onclick="copyCss('.eight')">
-<div class="btn"><a href="#">Button </a></div>
-</div>
-<div class="grid-item nine" onclick="copyCss('.nine')"><a href="#">Button</a></div>
+
 <div class="grid-item ten" onclick="copyCss('.ten')">Button</div>
 <div class="grid-item eleven" onclick="copyCss('.eleven')">Button</div>
 <div class="grid-item twelve" onclick="copyCss('.twelve')">Button</div>
     </div>
+    <h1>Button on dark background</h1>
+    <div class="container dark-bg">
+        <div class="grid-item seven" onclick="copyCss('.seven')"><a href="#"><span></span>Button</a></div>
+    <div class="grid-item eight" onclick="copyCss('.eight')">
+        <div class="btn"><a href="#">Button </a></div></div>
+        <div class="grid-item nine" onclick="copyCss('.nine')"><a href="#">Button</a></div>
+
+    </div>
+    <div class="footer">Footer</div>
 </body>
 <script src="script.js"></script>
 </html>

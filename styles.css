@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -21,21 +25,49 @@ a {
   text-align: center;
 }
 
+h1 {
+  margin: 25px 0;
+}
+
 .container {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
+}
+
+.light-bg,
+.dark-bg {
+  position: relative;
+  width: 100%;
+}
+
+.light-bg::before,
+.dark-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.light-bg::before {
+  background-color: #ffffff;
+}
+
+.dark-bg::before {
+  background-color: #000000;
 }
 
 .grid-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 0 calc(25% - 10px); /* Four divs in a row */
-  margin: 5px; /* Margin between grid items */
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px);
+  flex: 1 0 calc(25% - 10px);
+  margin: 5px;
   padding: 20px;
-  box-sizing: border-box; /* Include padding and border in width calculation */
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
@@ -305,10 +337,6 @@ a {
   height: 190%;
 }
 
-.seven {
-  background-color: #171616;
-}
-
 .seven a {
   width: 220px;
   height: 80px;
@@ -383,10 +411,6 @@ a {
 .seven a:hover {
   color: #262626;
   transition-delay: 0.4s;
-}
-
-.eight {
-  background-color: #171616;
 }
 
 .eight .btn {
@@ -493,17 +517,13 @@ a {
     0 0 60px #ee1d40;
 }
 
-.nine {
-  background-color: #171616;
-}
-
 .nine a {
   text-decoration: none;
-  padding: 40px 80px;
+  padding: 20px 40px;
   color: white;
   border: 3px solid white;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 25px;
   font-family: sans-serif;
   position: relative;
   transition: all 1s;
