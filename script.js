@@ -31,6 +31,9 @@ function copyCss(className) {
   copyToClipboard(cssText);
   elements.forEach((element) => {
     element.innerHTML = "COPIED!";
+    element.style.color = "#1E90FF";
+    element.style.fontWeight = "700";
+    element.style.letterSpacing = "2px";
   });
 
   setTimeout(() => {

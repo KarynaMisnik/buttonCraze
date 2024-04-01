@@ -1,7 +1,17 @@
 .header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: red;
-  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+p {
+  padding: 25px 0px;
+}
+
+span {
+  font-weight: 700;
 }
