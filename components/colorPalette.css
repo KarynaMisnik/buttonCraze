@@ -1,0 +1,24 @@
+/* Collection of colors */
+
+:root {
+  --midnight-blue: #191970;
+  --mint-green: #98ff98;
+  --peachy-pink: #ffdab9;
+  --ocean-blue: #0077be;
+  --goldenrod-yellow: #daa520;
+  --orchid-purple: #da70d6;
+  --slate-gray: #708090;
+  --salmon-pink: #fa8072;
+  --olive-green: #808000;
+  --cyan-blue: #00ffff;
+  --electric-blue: #00ffff;
+  --royal-purple: #7851a9;
+  --emerald-green: #50c878;
+  --coral-red: #ff6f61;
+  --sunshine-yellow: #ffd700;
+  --teal-blue: #008080;
+  --lavender-purple: #967bb6;
+  --ruby-red: #e0115f;
+  --forest-green: #228b22;
+  --sapphire-blue: #0f52ba;
+}
