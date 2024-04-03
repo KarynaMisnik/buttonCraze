@@ -43,14 +43,14 @@
 }
 /* Button one end */
 
-/* Button one start */
+/* Button one option B start */
 .one-option-b a {
   height: 60px;
   width: 200px;
   line-height: 60px;
   letter-spacing: 3px;
   position: relative;
-  color: #daa520;
+  color: #008080;
   font-size: 25px;
 }
 
@@ -61,8 +61,8 @@
   left: 0;
   width: 200px;
   height: 90px;
-  border-right: 3px solid #c90303;
-  border-left: 3px solid #daa520;
+  border-right: 3px solid #967bb6;
+  border-left: 3px solid #008080;
   transition: all 1s;
 }
 
@@ -73,8 +73,8 @@
   left: -15px;
   width: 230px;
   height: 60px;
-  border-bottom: 3px solid #c90303;
-  border-top: 3px solid #daa520;
+  border-bottom: 3px solid #967bb6;
+  border-top: 3px solid #008080;
   transition: all 1s;
   transition-delay: 0.2s;
 }
@@ -86,7 +86,7 @@
 .one-option-b a:hover::after {
   transform: rotateX(-180deg);
 }
-/* Button one end */
+/* Button one option B end */
 
 .two button {
   border: none;
