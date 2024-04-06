@@ -12,21 +12,6 @@ body {
   align-items: center;
 }
 
-button {
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/*
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-}
-*/
-
 .title-light-bg {
   margin: 25px 0;
   text-align: center;
@@ -96,18 +81,18 @@ a {
 
 @media (max-width: 768px) {
   .grid-item {
-    flex: 1 0 calc(33.33% - 10px); /* Three divs in a row */
+    flex: 1 0 calc(33.33% - 10px);
   }
 }
 
 @media (max-width: 576px) {
   .grid-item {
-    flex: 1 0 calc(50% - 10px); /* Two divs in a row */
+    flex: 1 0 calc(50% - 10px);
   }
 }
 
 @media (max-width: 300px) {
   .grid-item {
-    flex: 1 0 calc(80% - 10px); /* Two divs in a row */
+    flex: 1 0 calc(80% - 10px);
   }
 }

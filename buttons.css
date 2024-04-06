@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.one a {
+.light-mode-btn-one a {
   height: 60px;
   width: 200px;
   line-height: 60px;
@@ -18,7 +18,7 @@
   text-transform: uppercase;
 }
 
-.one a::before {
+.light-mode-btn-one a::before {
   content: "";
   position: absolute;
   top: -15px;
@@ -30,7 +30,7 @@
   transition: all 1s;
 }
 
-.one a::after {
+.light-mode-btn-one a::after {
   content: "";
   position: absolute;
   top: 0;
@@ -43,17 +43,17 @@
   transition-delay: 0.2s;
 }
 
-.one a:hover::before {
+.light-mode-btn-one a:hover::before {
   transform: rotateY(180deg);
 }
 
-.one a:hover::after {
+.light-mode-btn-one a:hover::after {
   transform: rotateX(-180deg);
 }
 /* Button one end */
 
 /* Button one option B start */
-.one-option-b a {
+.light-mode-btn-one-b a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -66,11 +66,11 @@
   font-size: 25px;
 }
 
-.one-option-b a:hover {
+.light-mode-btn-one-b a:hover {
   color: #967bb6;
 }
 
-.one-option-b a::before {
+.light-mode-btn-one-b a::before {
   content: "";
   position: absolute;
   top: -15px;
@@ -82,7 +82,7 @@
   transition: all 1s;
 }
 
-.one-option-b a::after {
+.light-mode-btn-one-b a::after {
   content: "";
   position: absolute;
   top: 0;
@@ -95,12 +95,12 @@
   transition-delay: 0.2s;
 }
 
-.one-option-b a:hover::after {
+.light-mode-btn-one-b a:hover::after {
   transform: rotateX(-180deg);
 }
 /* Button one option B end */
 
-.two button {
+.light-mode-btn-two button {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -113,7 +113,7 @@
   font-size: 22px;
 }
 
-.two button::before {
+.light-mode-btn-two button::before {
   content: "";
   position: absolute;
   width: 24px;
@@ -125,13 +125,13 @@
   transition: all 0.25s;
 }
 
-.two button:hover::before,
-.two button:hover::after {
+.light-mode-btn-two button:hover::before,
+.light-mode-btn-two button:hover::after {
   height: 100%;
   width: 100%;
 }
 
-.two button::after {
+.light-mode-btn-two button::after {
   content: "";
   position: absolute;
   width: 24px;
@@ -143,7 +143,7 @@
   transition: all 0.25s;
 }
 
-.three a {
+.light-mode-btn-three a {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -159,7 +159,7 @@
   overflow: hidden;
 }
 
-.three a::before {
+.light-mode-btn-three a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -174,11 +174,11 @@
   transform: translateX(-100%);
 }
 
-.three a:hover::before {
+.light-mode-btn-three a:hover::before {
   transform: translateX(0%);
 }
 
-.three a::after {
+.light-mode-btn-three a::after {
   content: "";
   position: absolute;
   top: 0;
@@ -193,15 +193,15 @@
   transform: translateX(100%);
 }
 
-.three a:hover::after {
+.light-mode-btn-three a:hover::after {
   transform: translateX(0%);
 }
 
-.three a:hover {
+.light-mode-btn-three a:hover {
   color: white;
 }
 
-.four a {
+.light-mode-btn-four a {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -215,7 +215,7 @@
   overflow: hidden;
 }
 
-.four a span {
+.light-mode-btn-four a span {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -226,7 +226,7 @@
   z-index: -1;
 }
 
-.four span:before {
+.light-mode-btn-four span:before {
   content: "";
   position: absolute;
   width: 8%;
@@ -238,17 +238,17 @@
   transform: translate(-50%, -50%) rotate(-60deg);
 }
 
-.four a:hover span:before {
+.light-mode-btn-four a:hover span:before {
   width: 100%;
   background-color: black;
   transform: translate(-50%, -50%) rotate(60deg);
 }
 
-.four a:hover {
+.light-mode-btn-four a:hover {
   color: white;
 }
 
-.five button {
+.light-mode-btn-five button {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -263,11 +263,11 @@
   overflow: hidden;
 }
 
-.five button:hover {
+.light-mode-btn-five button:hover {
   color: white;
 }
 
-.five button::before {
+.light-mode-btn-five button::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -280,11 +280,11 @@
   transition: all 0.5s;
 }
 
-.five button:hover::before {
+.light-mode-btn-five button:hover::before {
   height: 190%;
 }
 
-.six button {
+.light-mode-btn-six button {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -299,11 +299,11 @@
   overflow: hidden;
 }
 
-.six button:hover {
+.light-mode-btn-six button:hover {
   color: white;
 }
 
-.six button::before {
+.light-mode-btn-six button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -316,11 +316,11 @@
   transition: all 0.5s;
 }
 
-.six button:hover::before {
+.light-mode-btn-six button:hover::before {
   height: 190%;
 }
 
-.seven a {
+.dark-mode-btn-one a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -333,8 +333,8 @@
   line-height: 80px;
 }
 
-.seven a::before,
-.seven a::after {
+.dark-mode-btn-one a::before,
+.dark-mode-btn-one a::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -348,35 +348,35 @@
   opacity: 0;
 }
 
-.seven a::before {
+.dark-mode-btn-one a::before {
   left: 0;
   box-shadow: -100px 0 0 #f1c40f;
 }
 
-.seven a::after {
+.dark-mode-btn-one a::after {
   right: 0;
   box-shadow: 100px 0 0 #f1c40f;
 }
 
-.seven a::after {
+.dark-mode-btn-one a::after {
   right: 0;
 }
 
-.seven a:hover::before {
+.dark-mode-btn-one a:hover::before {
   left: 50%;
   box-shadow: 30px 0 0 #f1c40f;
   transform: translateX(-50%) translateY(-50%);
   opacity: 1;
 }
 
-.seven a:hover::after {
+.dark-mode-btn-one a:hover::after {
   right: 50%;
   box-shadow: -30px 0 0 #f1c40f;
   transform: translateX(50%) translateY(-50%);
   opacity: 1;
 }
 
-.seven a span {
+.dark-mode-btn-one a span {
   position: absolute;
   top: 0;
   left: 0;
@@ -389,24 +389,24 @@
   z-index: -1;
 }
 
-.seven a:hover span {
+.dark-mode-btn-one a:hover span {
   transform: scale(1);
   transition-delay: 0.4s;
 }
 
-.seven a:hover {
+.dark-mode-btn-one a:hover {
   color: #262626;
   transition-delay: 0.4s;
 }
 
-.eight .btn {
+.dark-mode-btn-two .btn {
   position: relative;
   width: 155px;
   height: 50px;
   margin: 20px;
 }
 
-.eight .btn a {
+.dark-mode-btn-two .btn a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,11 +430,11 @@
   backdrop-filter: blur(15px);
 }
 
-.eight .btn:hover a {
+.dark-mode-btn-two .btn:hover a {
   letter-spacing: 3px;
 }
 
-.eight .btn a::before {
+.dark-mode-btn-two .btn a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -447,12 +447,12 @@
   transition-delay: 0.5s;
 }
 
-.eight a:hover::before {
+.dark-mode-btn-two a:hover::before {
   transform: skewX(45deg) translateX(200%);
   transition-delay: 0s;
 }
 
-.eight .btn::before {
+.dark-mode-btn-two .btn::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -466,7 +466,7 @@
   transition-delay: 0;
 }
 
-.eight .btn:hover::before {
+.dark-mode-btn-two .btn:hover::before {
   bottom: 0;
   height: 50%;
   width: 80%;
@@ -474,7 +474,7 @@
   transition-delay: 0.5s;
 }
 
-.eight .btn::after {
+.dark-mode-btn-two .btn::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -488,7 +488,7 @@
   transition-delay: 0;
 }
 
-.eight .btn:hover::after {
+.dark-mode-btn-two .btn:hover::after {
   top: 0;
   height: 50%;
   width: 80%;
@@ -496,14 +496,14 @@
   transition-delay: 0.5s;
 }
 
-.eight .btn:nth-child(1)::before,
-.eight .btn:nth-child(1)::after {
+.dark-mode-btn-two .btn:nth-child(1)::before,
+.dark-mode-btn-two .btn:nth-child(1)::after {
   background: #ee1d40;
   box-shadow: 0 0 5px #ee1d40, 0 0 15px #ee1d40, 0 0 30px #ee1d40,
     0 0 60px #ee1d40;
 }
 
-.nine a {
+.dark-mode-btn-three a {
   text-decoration: none;
   padding: 20px 40px;
   color: white;
@@ -516,11 +516,11 @@
   overflow: hidden;
 }
 
-.nine a:hover {
+.dark-mode-btn-three a:hover {
   background-color: #cd2525;
 }
 
-.nine a::before {
+.dark-mode-btn-three a::before {
   content: "";
   background-color: white;
   top: 0;
@@ -532,12 +532,12 @@
   transition: all 1s;
 }
 
-.nine a:hover::before {
+.dark-mode-btn-three a:hover::before {
   transform: translateX(100%) rotate(45deg);
 }
 
 /* Button ten start */
-.ten button {
+.dark-mode-btn-four button {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -554,7 +554,7 @@
   overflow: hidden;
 }
 
-.ten button::before {
+.dark-mode-btn-four button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -565,11 +565,11 @@
   transition: all 0.5s;
 }
 
-.ten button:hover::before {
+.dark-mode-btn-four button:hover::before {
   left: 0;
 }
 
-.ten button::after {
+.dark-mode-btn-four button::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -580,11 +580,11 @@
   transition: all 0.5s;
 }
 
-.ten button:hover::after {
+.dark-mode-btn-four button:hover::after {
   right: 0;
 }
 
-.ten span::before {
+.dark-mode-btn-four span::before {
   content: "";
   position: absolute;
   top: -100%;
@@ -595,11 +595,11 @@
   transition: all 0.5s;
 }
 
-.ten button:hover span::before {
+.dark-mode-btn-four button:hover span::before {
   top: 0;
 }
 
-.ten span::after {
+.dark-mode-btn-four span::after {
   content: "";
   position: absolute;
   bottom: -100%;
@@ -610,7 +610,7 @@
   transition: all 0.5s;
 }
 
-.ten button:hover span::after {
+.dark-mode-btn-four button:hover span::after {
   bottom: 0;
 }
 
