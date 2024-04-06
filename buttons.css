@@ -1,4 +1,10 @@
 /* Button one start */
+.anchor-tag-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .one a {
   height: 60px;
   width: 200px;
@@ -7,6 +13,9 @@
   position: relative;
   color: #daa520;
   font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .one a::before {
@@ -45,6 +54,9 @@
 
 /* Button one option B start */
 .one-option-b a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   height: 60px;
   width: 200px;
   line-height: 60px;
@@ -52,6 +64,10 @@
   position: relative;
   color: #008080;
   font-size: 25px;
+}
+
+.one-option-b a:hover {
+  color: #967bb6;
 }
 
 .one-option-b a::before {
@@ -79,16 +95,15 @@
   transition-delay: 0.2s;
 }
 
-.one-option-b a:hover::before {
-  transform: rotateY(180deg);
-}
-
 .one-option-b a:hover::after {
   transform: rotateX(-180deg);
 }
 /* Button one option B end */
 
 .two button {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   border: none;
   padding: 12px 40px;
   letter-spacing: 3px;
@@ -231,6 +246,10 @@
 }
 
 .five button {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   padding: 20px 40px;
   background: none;
   border: 2px solid tomato;
@@ -263,6 +282,10 @@
 }
 
 .six button {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   padding: 20px 40px;
   background: none;
   border: 2px solid tomato;
@@ -295,6 +318,9 @@
 }
 
 .seven a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   width: 220px;
   height: 80px;
   color: #f1c40f;
@@ -509,13 +535,16 @@
 
 /* Button ten start */
 .ten button {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   background: transparent;
   border: none;
   position: relative;
   width: 220px;
   height: 80px;
   line-height: 70px;
-  text-align: center;
   color: aliceblue;
   font-size: 25px;
   letter-spacing: 10px;
